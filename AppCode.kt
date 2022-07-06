@@ -1,4 +1,6 @@
+
 / High-accuracy landmark detection and face classification
+
 val highAccuracyOpts = FirebaseVisionFaceDetectorOptions.Builder()
         .setPerformanceMode(FirebaseVisionFaceDetectorOptions.ACCURATE)
         .setLandmarkMode(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
